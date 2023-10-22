@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6468CD9C2ACD86DF00B5BA09 /* GlassUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CD9B2ACD86DF00B5BA09 /* GlassUIApp.swift */; };
-		6468CD9E2ACD86DF00B5BA09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CD9D2ACD86DF00B5BA09 /* ContentView.swift */; };
 		6468CDA02ACD86E100B5BA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6468CD9F2ACD86E100B5BA09 /* Assets.xcassets */; };
 		6468CDA32ACD86E100B5BA09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6468CDA22ACD86E100B5BA09 /* Preview Assets.xcassets */; };
 		6468CDAD2ACD86E200B5BA09 /* GlassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDAC2ACD86E200B5BA09 /* GlassUITests.swift */; };
-		6468CDB72ACD86E200B5BA09 /* GlassUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDB62ACD86E200B5BA09 /* GlassUIUITests.swift */; };
-		6468CDB92ACD86E200B5BA09 /* GlassUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDB82ACD86E200B5BA09 /* GlassUIUITestsLaunchTests.swift */; };
+		6468CDD32ACD872700B5BA09 /* StaticTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDC72ACD872700B5BA09 /* StaticTexts.swift */; };
+		6468CDD42ACD872700B5BA09 /* DesignConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDC82ACD872700B5BA09 /* DesignConstants.swift */; };
+		6468CDD52ACD872700B5BA09 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDCA2ACD872700B5BA09 /* RegistrationView.swift */; };
+		6468CDD62ACD872700B5BA09 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDCB2ACD872700B5BA09 /* ConfirmationView.swift */; };
+		6468CDD72ACD872700B5BA09 /* WhiteTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDCD2ACD872700B5BA09 /* WhiteTextfield.swift */; };
+		6468CDD82ACD872700B5BA09 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDCE2ACD872700B5BA09 /* SignupButton.swift */; };
+		6468CDD92ACD872700B5BA09 /* UnderlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDD02ACD872700B5BA09 /* UnderlayView.swift */; };
+		6468CDDA2ACD872700B5BA09 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDD12ACD872700B5BA09 /* BackgroundView.swift */; };
+		6468CDDB2ACD872700B5BA09 /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDD22ACD872700B5BA09 /* TextModifiers.swift */; };
+		6468CDDD2ACD87E900B5BA09 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468CDDC2ACD87E800B5BA09 /* RegistrationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +43,21 @@
 /* Begin PBXFileReference section */
 		6468CD982ACD86DF00B5BA09 /* GlassUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6468CD9B2ACD86DF00B5BA09 /* GlassUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassUIApp.swift; sourceTree = "<group>"; };
-		6468CD9D2ACD86DF00B5BA09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6468CD9F2ACD86E100B5BA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6468CDA22ACD86E100B5BA09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6468CDA82ACD86E100B5BA09 /* GlassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6468CDAC2ACD86E200B5BA09 /* GlassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassUITests.swift; sourceTree = "<group>"; };
 		6468CDB22ACD86E200B5BA09 /* GlassUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6468CDB62ACD86E200B5BA09 /* GlassUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassUIUITests.swift; sourceTree = "<group>"; };
-		6468CDB82ACD86E200B5BA09 /* GlassUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6468CDC72ACD872700B5BA09 /* StaticTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTexts.swift; sourceTree = "<group>"; };
+		6468CDC82ACD872700B5BA09 /* DesignConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignConstants.swift; sourceTree = "<group>"; };
+		6468CDCA2ACD872700B5BA09 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6468CDCB2ACD872700B5BA09 /* ConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		6468CDCD2ACD872700B5BA09 /* WhiteTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTextfield.swift; sourceTree = "<group>"; };
+		6468CDCE2ACD872700B5BA09 /* SignupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		6468CDD02ACD872700B5BA09 /* UnderlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlayView.swift; sourceTree = "<group>"; };
+		6468CDD12ACD872700B5BA09 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		6468CDD22ACD872700B5BA09 /* TextModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
+		6468CDDC2ACD87E800B5BA09 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +90,6 @@
 			children = (
 				6468CD9A2ACD86DF00B5BA09 /* GlassUI */,
 				6468CDAB2ACD86E200B5BA09 /* GlassUITests */,
-				6468CDB52ACD86E200B5BA09 /* GlassUIUITests */,
 				6468CD992ACD86DF00B5BA09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +107,9 @@
 		6468CD9A2ACD86DF00B5BA09 /* GlassUI */ = {
 			isa = PBXGroup;
 			children = (
+				6468CDDC2ACD87E800B5BA09 /* RegistrationViewModel.swift */,
+				6468CDC52ACD872700B5BA09 /* UI */,
 				6468CD9B2ACD86DF00B5BA09 /* GlassUIApp.swift */,
-				6468CD9D2ACD86DF00B5BA09 /* ContentView.swift */,
 				6468CD9F2ACD86E100B5BA09 /* Assets.xcassets */,
 				6468CDA12ACD86E100B5BA09 /* Preview Content */,
 			);
@@ -118,13 +132,52 @@
 			path = GlassUITests;
 			sourceTree = "<group>";
 		};
-		6468CDB52ACD86E200B5BA09 /* GlassUIUITests */ = {
+		6468CDC52ACD872700B5BA09 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				6468CDB62ACD86E200B5BA09 /* GlassUIUITests.swift */,
-				6468CDB82ACD86E200B5BA09 /* GlassUIUITestsLaunchTests.swift */,
+				6468CDC62ACD872700B5BA09 /* Constants */,
+				6468CDC92ACD872700B5BA09 /* Screens */,
+				6468CDCC2ACD872700B5BA09 /* Controls */,
+				6468CDCF2ACD872700B5BA09 /* CustomView */,
 			);
-			path = GlassUIUITests;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6468CDC62ACD872700B5BA09 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6468CDC72ACD872700B5BA09 /* StaticTexts.swift */,
+				6468CDC82ACD872700B5BA09 /* DesignConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6468CDC92ACD872700B5BA09 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6468CDCA2ACD872700B5BA09 /* RegistrationView.swift */,
+				6468CDCB2ACD872700B5BA09 /* ConfirmationView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6468CDCC2ACD872700B5BA09 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				6468CDCD2ACD872700B5BA09 /* WhiteTextfield.swift */,
+				6468CDCE2ACD872700B5BA09 /* SignupButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		6468CDCF2ACD872700B5BA09 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6468CDD02ACD872700B5BA09 /* UnderlayView.swift */,
+				6468CDD12ACD872700B5BA09 /* BackgroundView.swift */,
+				6468CDD22ACD872700B5BA09 /* TextModifiers.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6468CD9E2ACD86DF00B5BA09 /* ContentView.swift in Sources */,
+				6468CDDA2ACD872700B5BA09 /* BackgroundView.swift in Sources */,
+				6468CDDD2ACD87E900B5BA09 /* RegistrationViewModel.swift in Sources */,
+				6468CDD62ACD872700B5BA09 /* ConfirmationView.swift in Sources */,
+				6468CDD32ACD872700B5BA09 /* StaticTexts.swift in Sources */,
+				6468CDD92ACD872700B5BA09 /* UnderlayView.swift in Sources */,
 				6468CD9C2ACD86DF00B5BA09 /* GlassUIApp.swift in Sources */,
+				6468CDD42ACD872700B5BA09 /* DesignConstants.swift in Sources */,
+				6468CDD72ACD872700B5BA09 /* WhiteTextfield.swift in Sources */,
+				6468CDD52ACD872700B5BA09 /* RegistrationView.swift in Sources */,
+				6468CDD82ACD872700B5BA09 /* SignupButton.swift in Sources */,
+				6468CDDB2ACD872700B5BA09 /* TextModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6468CDB72ACD86E200B5BA09 /* GlassUIUITests.swift in Sources */,
-				6468CDB92ACD86E200B5BA09 /* GlassUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GlassUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GlassUI/Preview Content\"";
+				DEVELOPMENT_TEAM = N782HBL59A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +520,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
